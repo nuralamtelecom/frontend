@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "lucide-react": "...",
+    "next": "...",
+    "react": "...",
+    "react-dom": "..."
+  },
+  "devDependencies": {
+    "autoprefixer": "...",
+    "postcss": "...",
+    "tailwindcss": "..."
+  }
+}
