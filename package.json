@@ -1,13 +1,22 @@
 {
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
   "dependencies": {
-    "lucide-react": "...",
-    "next": "...",
-    "react": "...",
-    "react-dom": "..."
+    "next": "14.2.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "@supabase/supabase-js": "^2.39.0",
+    "lucide-react": "^0.300.0"
   },
   "devDependencies": {
-    "autoprefixer": "...",
-    "postcss": "...",
-    "tailwindcss": "..."
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
   }
 }
