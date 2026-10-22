@@ -1,19 +1,19 @@
-import './globals.css'
-import type { Metadata } from 'next'
+import type { Metadata } from "next";
+import "./globals.css";
 
 export const metadata: Metadata = {
-  title: 'GSM.ASIA - Premier GSM Marketplace',
-  description: 'Unlock devices, access tools, and find certified services instantly.',
-}
+  title: "GSM.ASIA - Premier GSM Service Marketplace",
+  description: "Unlock devices, access tools, and find certified GSM services instantly.",
+};
 
 export default function RootLayout({
   children,
-}: {
-  children: React.ReactNode
-}) {
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="antialiased bg-slate-50 text-slate-900">{children}</body>
     </html>
-  )
+  );
 }
