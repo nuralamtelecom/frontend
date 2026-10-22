@@ -1,14 +1,19 @@
-import "./globals.css";
+import './globals.css'
+import type { Metadata } from 'next'
 
-export const metadata = {
-  title: "gsm.asia",
-  description: "GSM Tool Rental & Remote Servicing",
-};
+export const metadata: Metadata = {
+  title: 'GSM.ASIA - Premier GSM Marketplace',
+  description: 'Unlock devices, access tools, and find certified services instantly.',
+}
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
   return (
-    <html lang="bn">
+    <html lang="en">
       <body>{children}</body>
     </html>
-  );
+  )
 }
